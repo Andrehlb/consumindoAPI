@@ -1,7 +1,3 @@
-Ao rever os arquivos que você enviou, eles parecem ser de uma aplicação web comum usando HTML e JavaScript do lado do cliente. Nesse caso, a abordagem que descrevi para variáveis de ambiente em Node.js não seria aplicável.
-
-Para projetos que usam apenas HTML e JavaScript do lado do cliente, a gestão de chaves de API é mais desafiadora, pois tudo que é implementado no cliente pode ser visto pelos usuários. Normalmente, chaves de API são mantidas no servidor para evitar a exposição. Desculpe pela confusão, e obrigado por me corrigir. Se houver mais alguma coisa em que eu possa ajudar, por favor, me avise.
-
 # Projeto Web - API Weather
 
 Este projeto é uma aplicação web simples que utiliza HTML e JavaScript do lado do cliente. 
