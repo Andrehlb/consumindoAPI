@@ -1,0 +1,19 @@
+{
+  "name": "weather-node",
+  "version": "1.0.0",
+  "description": "Web application for fetching weather data using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "temperature",
+    "rain",
+    "sun",
+    "cloud",
+    "clouds"
+  ],
+  "author": "André Luiz Barbosa",
+  "license": "ISC"
+}
