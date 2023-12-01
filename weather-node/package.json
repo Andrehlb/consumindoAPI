@@ -15,5 +15,8 @@
     "clouds"
   ],
   "author": "André Luiz Barbosa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
