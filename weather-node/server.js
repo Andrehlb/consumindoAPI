@@ -1,9 +1,9 @@
+require('dotenv').config();
 const apiKey = process.env.API_KEY;
+console.log(`A chave API é: ${apiKey}`);
 
 const express = require('express');
 const axios = require('axios');
-require('dotenv').config();
-console.log(`A chave API é: ${apiKey}`);
 
 const app = express();
 
