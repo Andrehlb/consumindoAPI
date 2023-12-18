@@ -14,7 +14,11 @@ app.get('/weather', async (req, res) => {
     try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=Limeira,BR&appid=${apiKey}`); // Estático
         // const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${req.query.city},BR&appid=${apiKey}&units=metric`); // Dinâmico
-        res.json(response.data);
+        res.json({
+            temperatura: (response.data.main.temp - 273.15).toFixed(2), // Kelvin para Celsius
+            clima: response.data.weather[0].main,
+            descricao: response.data.weather[0].description
+        });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
