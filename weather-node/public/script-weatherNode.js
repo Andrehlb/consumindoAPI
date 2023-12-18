@@ -14,7 +14,7 @@ function fetchWeather() {
 
 // Evento que carrega a previsão do tempo para uma cidade padrão ao carregar a página.
 document.addEventListener('DOMContentLoaded', function() {
-    const defaultCity('Limeira');
+    const defaultCity = 'Limeira';
     fetchWeather('deafultCity')
 });
 
