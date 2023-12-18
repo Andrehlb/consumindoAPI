@@ -1,6 +1,6 @@
 function fetchWeather() {
     fetch('/weather?city=${city}')
-    .then(reponse => response.json())
+    .then(response => response.json())
     .then(data => {
         const weatherDiv = document.getElementById('Weather');
         const content = `Cidade: ${city}<br>
