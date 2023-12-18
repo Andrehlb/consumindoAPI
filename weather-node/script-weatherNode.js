@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=2c9d5b9b0b0b0b0b0b0b0b0b0b0b0b0b')
+    fetch('/weather')
     .then(response => response.json())
     .then(data) => {
         const weatherDiv = document.getElementById('Weather');
