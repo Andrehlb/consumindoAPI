@@ -1,12 +1,12 @@
-require('dotenv').config();
 const apiKey = process.env.API_KEY;
 
 const express = require('express');
 const axios = require('axios');
+require('dotenv').config();
 
 const app = express();
 
-app.use(express.static('caminho_para_meus_arquivos_estaticos'));
+app.use(express.static('public'));
 
 // Rota para obter dados da API do OpenWeatherMap (ou meteorológicos)
 app.get('/weather', async (req, res) => {
