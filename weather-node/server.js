@@ -1,6 +1,13 @@
 require('dotenv').config();
 const apiKey = process.env.API_KEY;
-console.log(`A chave API é: ${apiKey}`);
+// console.log(`A chave API é: ${apiKey}`);
+if (apiKey) {
+    console.log('A cahve API foi carregada corretamente');
+    console.log(`Comprimento da chave API: ${apiKey.length} caracteres.`);
+    console.log(`Últimos 4 caracteres da chave API: ${apiKey.slice(- 4)}`);
+} else {
+    console.log('A chave API não foi carregada corretamente');
+}
 
 const express = require('express');
 const axios = require('axios');
