@@ -1,6 +1,19 @@
+/* Sky_Andrehlb color pallet */
 :root {
     --light-skyblue: #87C3E7;
-    
+    --celestial-ble: #4192CA;
+    --steel-blue: #3481C9;
+    --alice-blue: #DDEBF2;
+    --carolina-blue: #6BB5D2;
+}
+
+/* Sun_Andrehlb color pallet */
+:root {
+    --xanthous: #F8C76A;
+    --vanilla: #F8EbbF;
+    --jasmine: #FDE285;
+    --peach-yellow: #F4DFAC;
+    --jasmine-darker: #FDD87E;
 }
 
 body {
