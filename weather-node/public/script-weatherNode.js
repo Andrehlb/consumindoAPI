@@ -5,7 +5,7 @@ function fetchWeather(city) {
         const weatherDiv = document.getElementById('Weather');
         const content = `Cidade: ${city}<br>
                          Temperatura: ${data.main.temp}°C<br>
-                         Clima: ${data.weather[0].main}<br>
+                         
                          Descrição: ${data.weather[0].description}`;
         weatherDiv.innerHTML = content;
     })
@@ -23,3 +23,5 @@ document.getElementById('checkWeather').addEventListener('click', function() {
     const city = document.getElementById('cityInput').value;
     fetchWeather(city);
 });
+
+// Clima: ${data.weather[0].main}<br>
