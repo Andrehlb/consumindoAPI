@@ -44,4 +44,5 @@ body {
     transition: 0.3s;
     width: 200px;
     text-align: center;
+    cursor: pointer;
 }
