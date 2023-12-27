@@ -29,3 +29,8 @@ body {
     animation: backgroundWave 12s ease-in-out infinite;
     color: var(--blue-white);
 }
+
+.card-container {
+    display: flex;
+    
+}
