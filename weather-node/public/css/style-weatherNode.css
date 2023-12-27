@@ -37,5 +37,5 @@ body {
 }
 
 .card, .card-large {
-    
+    border-radius: 20px;
 }
