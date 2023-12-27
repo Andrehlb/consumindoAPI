@@ -46,3 +46,7 @@ body {
     text-align: center;
     cursor: pointer;
 }
+
+.card-large {
+    width: 100px;
+}
