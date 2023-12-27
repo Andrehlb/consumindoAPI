@@ -66,5 +66,5 @@ body {
 
 .card:hover, .card-large:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    filter:brightness(95%);
+    filter:brightness(75%);
 }
