@@ -58,6 +58,10 @@ body {
     margin: 5px 0;
 }
 
+.btn-card {
+    width: 90%;
+}
+
 .card-large {
     width: 200px;
     background-color: rgb(110, 161, 33);
