@@ -52,8 +52,7 @@ body {
 }
 
 .card-large {
-    width: 100px;
-    display: flex;
+    width: 200px;
     background-color: rgb(110, 161, 33);
 }
 
