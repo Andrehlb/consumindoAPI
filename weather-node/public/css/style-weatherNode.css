@@ -45,6 +45,7 @@ body {
     width: 200px;
     text-align: center;
     cursor: pointer;
+    display: flex;
 }
 
 .card-large {
