@@ -55,6 +55,7 @@ body {
 
 .input-card {
     width: calc(100% - 40px);
+    margin: 5px 0;
 }
 
 .card-large {
