@@ -53,6 +53,7 @@ body {
 
 .card-large {
     width: 100px;
+    display: flexbox;
     background-color: rgb(110, 161, 33);
 }
 
