@@ -25,7 +25,8 @@
 body {
     font-family: 'San Francisco', 'Segoe UI', Roboto, sans-serif;
     margin: 10;
-    background: linear-gradient(300deg, var(--light-skyblue), var(--celestial-blue), var(--alice-blue), var(--carolina-blue));
+    padding: 10;
+    background: linear-gradient(300deg, var(--light-skyblue), var(--light-skyblue), var(--alice-blue), var(--carolina-blue));
     background-size: 800% 800%;
     animation: backgroundWave 12s ease-in-out infinite;
     color: var(--blue-white);
