@@ -138,5 +138,8 @@ body {
 
 .card-previsao-tempo {
     background-image: url('/css/images/Andrehlb-2024-01-03-wideTransparentCentralArea-weatherIconsCloudsRainThunder.png');
+}
 
+.card-fluxo-rodovias {
+    background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
 }
