@@ -135,3 +135,8 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     filter:brightness(70%);
 }
+
+.card-previsao-tempo {
+    background-image: url('images/Andrehlb-2024-01-03-wideTransparentCentralArea-weatherIconsCloudsRainThunder.png');
+    
+}
