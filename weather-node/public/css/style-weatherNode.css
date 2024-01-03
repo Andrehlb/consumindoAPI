@@ -34,7 +34,7 @@ body {
 
 .card-container {
     display: flex;
-    justify-content:  space-aroubd;
+    justify-content:  space-around;
     margin-bottom: 20px;
 }
 
