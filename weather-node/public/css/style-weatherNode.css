@@ -138,7 +138,7 @@ body {
 }
 
 .card-previsao-tempo {
-    background-image: url('/css/images/Andrehlb-2024-01-03-wideTransparentCentralArea-weatherIconsCloudsRainThunder.png');
+    background-image: url('/css/images/Andrehlb-2024-01-04weatherForecast-iconsSunCloudsRainThunder.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,7 +161,7 @@ body {
     z-index: 2;
 }
 .card-fluxo-rodovias {
-    background-image: url('/css/images/Andrehlb-2024-01-04weatherForecast-iconsSunCloudsRainThunder.png');
+    background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
 }
 
 .card-fluxo-aeroportos {
