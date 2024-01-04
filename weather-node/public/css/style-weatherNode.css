@@ -155,6 +155,11 @@ body {
     bottom: 0;
     background: rgba(255, 255, 255, 0.5);
 }
+
+.card-previsao-tempo > * {
+    position: relative;
+    z-index: 2;
+}
 .card-fluxo-rodovias {
     background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
 }
