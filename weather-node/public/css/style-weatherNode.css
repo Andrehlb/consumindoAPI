@@ -140,6 +140,7 @@ body {
 .card-previsao-tempo {
     background-image: url('/css/images/Andrehlb-2024-01-03-wideTransparentCentralArea-weatherIconsCloudsRainThunder.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-fluxo-rodovias {
