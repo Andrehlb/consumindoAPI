@@ -145,6 +145,9 @@ body {
     position: relative;
 }
 
+.card-previsao-tempo::before {
+    content: "";
+}
 .card-fluxo-rodovias {
     background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
 }
