@@ -153,8 +153,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(20, 20, 20, 0.5);
-    z-index: 1;
+    background: rgba(255, 255, 255, 0.5);
 }
 .card-fluxo-rodovias {
     background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
