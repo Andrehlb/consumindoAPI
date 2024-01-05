@@ -92,6 +92,8 @@ body {
 .card, .card-large {
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
     padding: 20px;
     color: white;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
