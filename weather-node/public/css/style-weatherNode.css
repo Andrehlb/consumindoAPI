@@ -138,11 +138,12 @@ body {
 }
 
 .card-previsao-tempo {
-    background-image: url('/css/images/Andrehlb-2024-01-04weatherForecast-iconsSunCloudsRainThunder.png');
+    /* background-image: url('/css/images/Andrehlb-2024-01-04weatherForecast-iconsSunCloudsRainThunder.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-color: var(--light-skyblue);
 }
 
 .card-previsao-tempo::before {
