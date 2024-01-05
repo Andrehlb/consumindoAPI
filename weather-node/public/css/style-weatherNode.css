@@ -143,7 +143,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: var(--light-skyblue);
+    background-color: var(--light-blue);
 }
 
 .card-previsao-tempo::before {
