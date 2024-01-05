@@ -163,14 +163,74 @@ body {
     z-index: 2;
 }
 .card-fluxo-rodovias {
-    background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png');
+    /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.card-fluxo-rodovias::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card-fluxo-rodovias > * {
+    position: relative;
+    z-index: 2;
 }
 
 .card-fluxo-aeroportos {
-    background-image: url('/css/images/Andrehlb-2024-01-03-SVG-largeTransparentCentral-smallAirportIconsAirplanesControl_towersLuggage.png');
+    / * background-image: url('/css/images/Andrehlb-2024-01-03-SVG-largeTransparentCentral-smallAirportIconsAirplanesControl_towersLuggage.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.card-fluxo-aeroportos::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card-fluxo-aeroportos > * {
+    position: relative;
+    z-index: 2;
 }
 
 .card-condicoes-agronomicas {
-    background-image: url('/css/images/Andrehlb2024-01-03-SVG-LargeTransparentCentralArea-smallAgriculturalIconsPlantsTractorsCrops.png');
+    /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-LargeTransparentCentralArea-smallAgriculturalIconsPlantsTractorsCrops.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.card-condicoes-agronomicas::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card-condicoes-agronomicas > * {
+    position: relative;
+    z-index: 2;
 }
 
