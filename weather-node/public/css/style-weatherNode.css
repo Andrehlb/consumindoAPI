@@ -105,6 +105,7 @@ body {
     justify-content: center;
     gap: 10px;
     position : relative;
+    background-color: var(--light-skyblue);
 }
 
 .input-card {
