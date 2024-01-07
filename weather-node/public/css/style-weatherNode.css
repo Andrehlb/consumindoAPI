@@ -96,7 +96,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content:  space-around;
-    margin-bottom: 20px;
     gap: 20px;
 }
 
