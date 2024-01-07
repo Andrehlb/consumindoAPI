@@ -78,6 +78,7 @@
         max-width: 100%;
         flex-basis: auto;
     }
+}
 
 .card, .card-large {
         flex-basis: 100%;
