@@ -72,6 +72,15 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+.card, .card-large {
+        flex-basis: 100%;
+    }
     
 body {
     font-family: 'San Francisco', 'Segoe UI', Roboto, sans-serif;
