@@ -74,8 +74,9 @@
 }
 
 @media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
+    .card, .card-large {
+        max-width: 100%;
+        flex-basis: auto;
     }
 
 .card, .card-large {
