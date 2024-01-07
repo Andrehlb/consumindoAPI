@@ -65,30 +65,7 @@
     --dark-teal: #008080;
     --light-navy: #000080;
 }
-}
 
-@keyframes backgroundWave {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-@media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .card, .card-large {
-        max-width: 100%;
-        flex-basis: auto;
-        margin: 10px 0;
-    }
-}
-
-.card, .card-large {
-        flex-basis: 100%;
-    }
-    
 body {
     font-family: 'San Francisco', 'Segoe UI', Roboto, sans-serif;
     margin: 10px;
@@ -104,6 +81,10 @@ body {
     flex-wrap: wrap;
     justify-content:  space-around;
     gap: 20px;
+}
+
+.card, .card-large {
+    flex-basis: 100%;
 }
 
 .card, .card-large {
@@ -131,11 +112,6 @@ body {
     background-color: var(--light-skyblue);
 }
 
-.input-card {
-    width: calc(100% - 40px);
-    margin: 5px 0;
-}
-
 .btn-card {
     width: 90%;
 }
@@ -145,21 +121,29 @@ body {
     background-color: rgb(110, 161, 33);
 }
 
-#tempo {
-    background-color: rgb(60, 162, 205);
+
+@keyframes backgroundWave {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
-#rodovias{
-    background-color: #473b3b;
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card, .card-large {
+        max-width: 100%;
+        flex-basis: auto;
+        margin: 10px 0;
+    }
 }
 
-#aeroportos {
-    background-color: #ff0000
-}
 
-.card:hover, .card-large:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    filter:brightness(70%);
+.input-card {
+    width: calc(100% - 40px);
+    margin: 5px 0;
 }
 
 .card-previsao-tempo {
@@ -185,6 +169,7 @@ body {
     position: relative;
     z-index: 2;
 }
+
 .card-fluxo-rodovias {
     /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png'); */
     background-size: cover;
@@ -256,4 +241,19 @@ body {
     position: relative;
     z-index: 2;
 }
+
+.card:hover, .card-large:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    filter:brightness(70%);
+}
+
+
+
+
+
+
+
+
+
+
 
