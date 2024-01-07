@@ -92,7 +92,8 @@ body {
 }
 
 .card, .card-large {
-    flex: 1 1 200px;
+    flex: 1;
+    flex-basis: 200px;
     margin: 20px;
     border-radius: 20px;
     overflow: hidden;
