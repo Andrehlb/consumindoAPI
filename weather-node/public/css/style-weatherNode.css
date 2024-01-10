@@ -211,7 +211,7 @@ body {
     background-position: center;
     position: relative;
     width: 200px;
-    background-color: rgb(110, 161, 33);
+    background-color: var(--green);
 }
 
 .card-condicoes-agronomicas::before {
