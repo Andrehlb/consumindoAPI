@@ -222,6 +222,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-color: var(--dark-green);
 }
 
 .card-condicoes-agronomicas::before {
