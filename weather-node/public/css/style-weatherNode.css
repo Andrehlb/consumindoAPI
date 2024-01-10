@@ -81,8 +81,8 @@ body {
     flex-basis: 130px; */
     display:flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
+    flex-wrap: wrap;
     /* max-width: calc (33.333% - 40px); */
     margin: 20px;
     border-radius: 20px;
