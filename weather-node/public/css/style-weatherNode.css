@@ -101,6 +101,10 @@ body {
     position : relative;
 }
 
+.card-previsao-tempo, .card-fluxo-rodovias, .card-fluxo-aeroportos, .card-condicoes-agronomicas {
+    flex: auto;
+}
+
 .btn-card {
     width: 90%;
 }
