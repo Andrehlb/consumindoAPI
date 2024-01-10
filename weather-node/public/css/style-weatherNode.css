@@ -197,6 +197,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-color: var(--dark-blue);
 }
 
 .card-fluxo-aeroportos::before {
