@@ -111,6 +111,10 @@ body {
     width: 90%;
 }
 
+.card-fluxo-aeroportos {
+    background-color: var(--light-navy);
+}
+
 .card-large {
     width: 200px;
     background-color: rgb(110, 161, 33);
