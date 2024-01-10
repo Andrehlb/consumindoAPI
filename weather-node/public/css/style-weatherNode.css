@@ -1,21 +1,19 @@
-/* Sky_Andrehlb color pallet */
 :root {
+    /* Sky_Andrehlb color pallet */
     --light-skyblue: #87C3E7;
     --celestial-blue: #4192CA;
     --steel-blue: #3481C9;
     --alice-blue: #DDEBF2;
     --carolina-blue: #6BB5D2;
-}
 
 /* Sun_Andrehlb color pallet */
-:root {
     --xanthous: #F8C76A;
     --vanilla: #F8EbbF;
     --jasmine: #FDE285;
     --peach-yellow: #F4DFAC;
     --jasmine-darker: #FDD87E;
 
-:root {
+/* Global_Andrehlb color pallet */
     --black: #000000;
     --white: #FFFFFF;
     --gray: #808080;
@@ -104,6 +102,7 @@ body {
 
 .card-previsao-tempo, .card-fluxo-rodovias, .card-fluxo-aeroportos, .card-condicoes-agronomicas {
     flex: auto;
+    animation: backgroundWave 12s ease-in-out infinite;
 }
 
 .btn-card {
