@@ -81,9 +81,6 @@ body {
     flex-wrap: wrap;
     justify-content:  space-around;
     gap: 20px;
-}
-
-.card, .card-large {
     flex: 1 1 130px;
     flex-basis: 130px;
     max-width: calc (33.333% - 40px);
@@ -111,16 +108,6 @@ body {
     width: 90%;
 }
 
-.card-fluxo-aeroportos {
-    background-color: var(--light-navy);
-}
-
-.card-large {
-    width: 200px;
-    background-color: rgb(110, 161, 33);
-}
-
-
 @keyframes backgroundWave {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -131,8 +118,6 @@ body {
     .card-container {
         flex-direction: column;
         align-items: center;
-    }
-    .card, .card-large {
         max-width: 100%;
         flex-basis: auto;
         margin: 10px 0;
@@ -223,6 +208,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    width: 200px;
+    background-color: rgb(110, 161, 33);
 }
 
 .card-condicoes-agronomicas::before {
@@ -241,7 +228,7 @@ body {
     z-index: 2;
 }
 
-.card:hover, .card-large:hover {
+.card-container {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     filter:brightness(70%);
 }
