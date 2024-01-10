@@ -77,10 +77,6 @@ body {
 }
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:  space-around;
-    gap: 20px;
     flex: 1 1 130px;
     flex-basis: 130px;
     max-width: calc (33.333% - 40px);
