@@ -80,7 +80,8 @@ body {
     /* flex: 1 1 130px;
     flex-basis: 130px; */
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     /* max-width: calc (33.333% - 40px); */
     margin: 20px;
@@ -207,6 +208,7 @@ body {
 }
 
 .card-condicoes-agronomicas {
+    /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-LargeTransparentCentralArea-smallAgriculturalIconsPlantsTractorsCrops.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
