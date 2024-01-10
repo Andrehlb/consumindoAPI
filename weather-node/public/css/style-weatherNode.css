@@ -147,7 +147,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: var(--light-blue);
 }
 
 .card-previsao-tempo::before {
@@ -172,7 +171,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: var(--gray);
 }
 
 .card-fluxo-rodovias::before {
@@ -197,7 +195,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: var(--dark-blue);
 }
 
 .card-fluxo-aeroportos::before {
@@ -222,7 +219,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    background-color: var(--dark-green);
 }
 
 .card-condicoes-agronomicas::before {
