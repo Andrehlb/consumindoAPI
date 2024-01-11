@@ -171,7 +171,7 @@ body {
 }
 
 @keyframes rodoviasColor {
-    5% { background-color: var(--gray-1);}
+    0% { background-color: var(--gray-1);}
     25% { background-color: var(--gray-2);}
     50% { background-color: var(--gray-3);}
     75% { background-color: var(--gray-4);}
