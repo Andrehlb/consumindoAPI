@@ -270,7 +270,7 @@ body {
     z-index: 2;
 }
 
-@keyframes aeroportosColor {
+@keyframes agronomicasColor {
     0% { background-color: var(--light-navy-1);}
     20% { background-color: var(-light-navy-2);}
     40% { background-color: var(-light-navy-3);}
