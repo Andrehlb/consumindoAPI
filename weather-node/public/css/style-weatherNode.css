@@ -172,10 +172,11 @@ body {
 
 @keyframes rodoviasColor {
     0% { background-color: var(--gray-1);}
-    25% { background-color: var(--gray-2);}
-    50% { background-color: var(--gray-3);}
-    75% { background-color: var(--gray-4);}
-    100% { background-color: var(--gray5);}   
+    20% { background-color: var(--gray-2);}
+    40% { background-color: var(--gray-3);}
+    60% { background-color: var(--gray-4);}
+    80% { background-color: var(--gray5);}
+    100% { background-color: var(--gray-1);}
 }
 
 .card-fluxo-rodovias {
