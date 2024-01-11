@@ -234,12 +234,12 @@ body {
 }
 
 @keyframes aeroportosColor {
-    0% { background-color: var(--green-1);}
-    20% { background-color: var(--green-2);}
-    40% { background-color: var(--green-3);}
-    60% { background-color: var(--green-4);}
-    80% { background-color: var(--green-5);}
-    100% { background-color: var(--green-1);}
+    0% { background-color: var(--light-navy-1);}
+    20% { background-color: var(-light-navy-2);}
+    40% { background-color: var(-light-navy-3);}
+    60% { background-color: var(-light-navy-4);}
+    80% { background-color: var(-light-navy-5);}
+    100% { background-color: var(light-navye-1);}
 }
 
 .card-fluxo-aeroportos {
@@ -271,12 +271,12 @@ body {
 }
 
 @keyframes agronomicasColor {
-    0% { background-color: var(--light-navy-1);}
-    20% { background-color: var(-light-navy-2);}
-    40% { background-color: var(-light-navy-3);}
-    60% { background-color: var(-light-navy-4);}
-    80% { background-color: var(-light-navy-5);}
-    100% { background-color: var(light-navye-1);}
+    0% { background-color: var(--green-1);}
+    20% { background-color: var(--green-2);}
+    40% { background-color: var(--green-3);}
+    60% { background-color: var(--green-4);}
+    80% { background-color: var(--green-5);}
+    100% { background-color: var(--green-1);}
 }
 
 .card-condicoes-agronomicas {
