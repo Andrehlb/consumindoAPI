@@ -46,6 +46,11 @@
     --gray-4: #666666;
     --gray-5: #333333; /* Cinza mais escuro */
     --green: #008000;
+    --green-1: #b8f4b8; /* Verde mais claro */
+    --green-2: #99ff99;
+    --green-3: #66ff66; /* --green */
+    --green-4: #33ff33;
+    --green-5: #00ff00; /* Verde mais escuro */
     --light-blue: #ADD8E6;
     --light-brown: #F4A460;
     --light-cyan: #E0FFFF;
@@ -229,12 +234,12 @@ body {
 }
 
 @keyframes aeroportosColor {
-    0% { background-color: var(--light-navy-1);}
-    20% { background-color: var(-light-navy-2);}
-    40% { background-color: var(-light-navy-3);}
-    60% { background-color: var(-light-navy-4);}
-    80% { background-color: var(-light-navy-5);}
-    100% { background-color: var(light-navye-1);}
+    0% { background-color: var(--green-1);}
+    20% { background-color: var(--green-2);}
+    40% { background-color: var(--green-3);}
+    60% { background-color: var(--green-4);}
+    80% { background-color: var(--green-5);}
+    100% { background-color: var(--green-1);}
 }
 
 .card-fluxo-aeroportos {
@@ -265,14 +270,25 @@ body {
     z-index: 2;
 }
 
+@keyframes aeroportosColor {
+    0% { background-color: var(--light-navy-1);}
+    20% { background-color: var(-light-navy-2);}
+    40% { background-color: var(-light-navy-3);}
+    60% { background-color: var(-light-navy-4);}
+    80% { background-color: var(-light-navy-5);}
+    100% { background-color: var(light-navye-1);}
+}
+
 .card-condicoes-agronomicas {
     /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-LargeTransparentCentralArea-smallAgriculturalIconsPlantsTractorsCrops.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    width: 200px;
     background-color: var(--green);
+    border-radius: 10px;
+    padding: 15px;
+    animation: agronomicasColor 5s linear infinite;
 }
 
 .card-condicoes-agronomicas::before {
