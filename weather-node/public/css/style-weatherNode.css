@@ -228,7 +228,7 @@ body {
     z-index: 2;
 }
 
-@keyframes tempoColor {
+@keyframes aeroportosColor {
     0% { background-color: var(--light-navy-1);}
     20% { background-color: var(--celestial-blue-2);}
     40% { background-color: var(--celestial-blue-3);}
