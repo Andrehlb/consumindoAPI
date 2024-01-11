@@ -55,6 +55,11 @@
     --light-magenta: #FF00FF;
     --light-maroon: #B03060;
     --light-navy: #000080;
+    --light-navy-1: #6fa5c4; /* Azul marinho mais claro */
+    --light-navy-2: #3a638f;
+    --light-navy-3: #203e64; /* --light-navy */
+    --light-navy-4: #13396d;
+    --light-navy-5: #001a59; /* Azul marinho mais escuro */
     --light-pink: #FFB6C1;
     --light-red: #FFA07A;
     --light-teal: #008080;
@@ -223,6 +228,14 @@ body {
     z-index: 2;
 }
 
+@keyframes tempoColor {
+    0% { background-color: var(--light-navy-1);}
+    20% { background-color: var(--celestial-blue-2);}
+    40% { background-color: var(--celestial-blue-3);}
+    60% { background-color: var(--celestial-blue-4);}
+    80% { background-color: var(--celestial-blue-5);}
+    100% { background-color: var(--celestial-blue-1);}
+
 .card-fluxo-aeroportos {
     /* background-image: url('/css/images/Andrehlb-2024-01-03-SVG-largeTransparentCentral-smallAirportIconsAirplanesControl_towersLuggage.png'); */
     background-size: cover;
@@ -230,6 +243,9 @@ body {
     background-position: center;
     position: relative;
     background-color: var(--light-navy);
+    border-radius: 10px;
+    padding: 15px;
+    animation: aeroportosColor 5s linear infinite;
 }
 
 .card-fluxo-aeroportos::before {
