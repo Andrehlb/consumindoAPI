@@ -177,10 +177,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    /* background-color: var(--gray); */
+    background-color: var(--gray);
     border-radius: 10px;
     padding: 15px;
-    animation: rodoiasColor 5s linear infinite;
+    animation: rodoviasColor 5s linear infinite;
 }
 
 .card-fluxo-rodovias::before {
