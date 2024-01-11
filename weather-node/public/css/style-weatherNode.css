@@ -18,6 +18,11 @@
     --white: #FFFFFF;
     --gray: #808080;
     --light-gray: #D3D3D3;
+    --gray-1: #f2f2f2; /* Cinza mais claro */
+    --gray-2: #cccccc;
+    --gray-3: #999999;
+    --gray-4: #666666;
+    --gray-5: #333333; /* Cinza mais escuro */
     --dark-gray: #A9A9A9;
     --light-blue: #ADD8E6;
     --blue: #0000FF;
@@ -166,9 +171,11 @@ body {
 }
 
 @keyframes rodoviasColor {
-    0% { background-color: var(--gray);}
-    50% { background-color: var(--light-gray);}
-    100% { background-color: var(--dark-gray);}   
+    0% { background-color: var(--gray-1);}
+    25% { background-color: var(--gray-2);}
+    50% { background-color: var(--gray-3);}
+    75% { background-color: var(--gray-4);}
+    100% { background-color: var(--gray5);}   
 }
 
 .card-fluxo-rodovias {
