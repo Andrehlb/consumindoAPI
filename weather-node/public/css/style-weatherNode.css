@@ -180,7 +180,7 @@ body {
     background-color: var(--gray);
     border-radius: 10px;
     padding: 15px;
-    animation: rodoiasColor 5s ease-in-out infinite;
+    animation: rodoiasColor 5s linear infinite;
 }
 
 .card-fluxo-rodovias::before {
