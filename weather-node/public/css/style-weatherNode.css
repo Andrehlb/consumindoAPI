@@ -15,58 +15,63 @@
 
 /* Global_Andrehlb color pallet */
     --black: #000000;
-    --white: #FFFFFF;
+    --blue: #0000FF;
+    --brown: #A52A2A;
+    --celestial-blue-1: #accbe8; /* Azul mais claro */
+    --celestial-blue-2: #6d91c9;
+    --celestial-blue-3: #6ea4fc; /* --celestial-blue */
+    --celestial-blue-4: #4d90ff;
+    --celestial-blue-5: #1a70ff; /* Azul mais escuro */
+    --cyan: #00FFFF;
+    --dark-blue: #00008B;
+    --dark-cyan: #008B8B;
+    --dark-brown: #8B4513;
+    --dark-gold: #B8860B;
+    --dark-gray: #A9A9A9;
+    --dark-green: #006400;
+    --dark-magenta: #8B008B;
+    --dark-maroon: #8B0000;
+    --dark-orange: #FF8C00;
+    --dark-pink: #FF69B4;
+    --dark-purple: #4B0082;
+    --dark-red: #8B0000;
+    --dark-silver: #A9A9A9;
+    --dark-teal: #008080;
+    --dark-yellow: #808000;
+    --gold: #FFD700;
     --gray: #808080;
-    --light-gray: #D3D3D3;
     --gray-1: #d7d4d4; /* Cinza mais claro */
     --gray-2: #cccccc;
     --gray-3: #999999;
     --gray-4: #666666;
     --gray-5: #333333; /* Cinza mais escuro */
-    --dark-gray: #A9A9A9;
-    --light-blue: #ADD8E6;
-    --blue: #0000FF;
-    --dark-blue: #00008B;
-    --light-green: #90EE90;
     --green: #008000;
-    --dark-green: #006400;
-    --light-red: #FFA07A;
-    --red: #FF0000;
-    --dark-red: #8B0000;
-    --light-yellow: #FFFFE0;
-    --yellow: #FFFF00;
-    --dark-yellow: #808000;
-    --light-orange: #FFDAB9;
-    --orange: #FFA500;
-    --dark-orange: #FF8C00;
-    --light-purple: #E6E6FA;
-    --purple: #800080;
-    --dark-purple: #4B0082;
-    --light-pink: #FFB6C1;
-    --pink: #FFC0CB;
-    --dark-pink: #FF69B4;
+    --light-blue: #ADD8E6;
     --light-brown: #F4A460;
-    --brown: #A52A2A;
-    --dark-brown: #8B4513;
     --light-cyan: #E0FFFF;
-    --cyan: #00FFFF;
-    --dark-cyan: #008B8B;
-    --light-magenta: #FF00FF;
-    --magenta: #FF00FF;
-    --dark-magenta: #8B008B;
     --light-gold: #FFD700;
-    --gold: #FFD700;
-    --dark-gold: #B8860B;
-    --light-silver: #C0C0C0;
-    --silver: #C0C0C0;
-    --dark-silver: #A9A9A9;
+    --light-gray: #D3D3D3;
+    --light-green: #90EE90;
+    --light-magenta: #FF00FF;
     --light-maroon: #B03060;
-    --maroon: #800000;
-    --dark-maroon: #8B0000;
-    --light-teal: #008080;
-    --teal: #008080;
-    --dark-teal: #008080;
     --light-navy: #000080;
+    --light-pink: #FFB6C1;
+    --light-red: #FFA07A;
+    --light-teal: #008080;
+    --light-yellow: #FFFFE0;
+    --light-orange: #FFDAB9;
+    --light-purple: #E6E6FA;
+    --light-silver: #C0C0C0;
+    --magenta: #FF00FF;
+    --maroon: #800000;
+    --orange: #FFA500;
+    --pink: #FFC0CB;
+    --purple: #800080;
+    --red: #FF0000;
+    --silver: #C0C0C0;
+    --teal: #008080;
+    --yellow: #FFFF00;
+    --white: #FFFFFF;
 }
 
 body {
@@ -144,14 +149,25 @@ body {
     margin: 5px 0;
 }
 
+@keyframes tempoColor {
+    0% { background-color: var(--gray-1);}
+    20% { background-color: var(--gray-2);}
+    40% { background-color: var(--gray-3);}
+    60% { background-color: var(--gray-4);}
+    80% { background-color: var(--gray-5);}
+    100% { background-color: var(--gray-1);}
+}
+
 .card-previsao-tempo {
     /* background-image: url('/css/images/Andrehlb-2024-01-04weatherForecast-iconsSunCloudsRainThunder.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    width: 200px;
     background-color: var(--celestial-blue);
+    border-radius: 10px;
+    padding: 15px;
+    animation: tempoColor 5s linear infinite;
 }
 
 .card-previsao-tempo::before {
