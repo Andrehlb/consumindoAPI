@@ -165,6 +165,12 @@ body {
     z-index: 2;
 }
 
+@keyframes rodoviasColor {
+    0% { background-color: var(--gray);}
+    50% { background-color: var(--light-gray);}
+    100% { background-color: var(--dark-gray);}   
+}
+
 .card-fluxo-rodovias {
     /* background-image: url('/css/images/Andrehlb2024-01-03-SVG-wideTransparentCentralArea-smallTrafficIconsCarsTrucksTraffic_lightsRoad_signs.png'); */
     background-size: cover;
@@ -174,7 +180,7 @@ body {
     background-color: var(--gray);
     border-radius: 10px;
     padding: 15px;
-    animation: none;
+    animation: rodoiasColor 5s ease-in-out infinite;
 }
 
 .card-fluxo-rodovias::before {
