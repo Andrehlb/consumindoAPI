@@ -150,9 +150,9 @@ body {
 }
 
 @keyframes tempoColor {
-    0% { background-color: var(--gray---celestial-blue-1);}
-    20% { background-color: var(--gray---celestial-blue-2);}
-    40% { background-color: var(--gray---celestial-blue-3);}
+    0% { background-color: var(--celestial-blue-1);}
+    20% { background-color: var(--celestial-blue-2);}
+    40% { background-color: var(--celestial-blue-3);}
     60% { background-color: var(--celestial-blue-4);}
     80% { background-color: var(--celestial-blue-5);}
     100% { background-color: var(--celestial-blue-1);}
