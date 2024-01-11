@@ -235,6 +235,7 @@ body {
     60% { background-color: var(--celestial-blue-4);}
     80% { background-color: var(--celestial-blue-5);}
     100% { background-color: var(--celestial-blue-1);}
+}
 
 .card-fluxo-aeroportos {
     /* background-image: url('/css/images/Andrehlb-2024-01-03-SVG-largeTransparentCentral-smallAirportIconsAirplanesControl_towersLuggage.png'); */
