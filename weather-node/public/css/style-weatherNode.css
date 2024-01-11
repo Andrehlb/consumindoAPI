@@ -230,11 +230,11 @@ body {
 
 @keyframes aeroportosColor {
     0% { background-color: var(--light-navy-1);}
-    20% { background-color: var(--celestial-blue-2);}
-    40% { background-color: var(--celestial-blue-3);}
-    60% { background-color: var(--celestial-blue-4);}
-    80% { background-color: var(--celestial-blue-5);}
-    100% { background-color: var(--celestial-blue-1);}
+    20% { background-color: var(-light-navy-2);}
+    40% { background-color: var(-light-navy-3);}
+    60% { background-color: var(-light-navy-4);}
+    80% { background-color: var(-light-navy-5);}
+    100% { background-color: var(light-navye-1);}
 }
 
 .card-fluxo-aeroportos {
